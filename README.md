@@ -1,10 +1,10 @@
 # FullIPTV
 
-#Script work only on Clean Debian/Ubuntu install servers
+# Script work only on Clean Debian/Ubuntu install servers
 
-#=====================================
-FullIPTV auto install script v2.1-rc.4
-#=====================================
+# =====================================
+<p>FullIPTV auto install script v2.1-rc.4</p>
+# =====================================
 
 Implemented support for Ubuntu 14.04
 Fix UTF-8 terminal support in Lion
