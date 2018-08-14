@@ -1,10 +1,9 @@
 #!/bin/bash
 #
 # FullIPTV 2.0 / Installer v2.1-rc.4
-# edited by Ivan Bachvarov a.k.a SlaSerX
-# Web: https://linuxhelps.net
-# GitHub: https://github.com/SlaSerX/
-# Email: root@linuxhelps.net
+# edited by Iryadinata
+# Web: https://irtech.net
+# GitHub: https://github.com/irtec/
 #
 
 
@@ -192,12 +191,12 @@ function writeConfig {
 
 function upgradeFiles {
 	if [ "$ISCMS" = "1" ]; then
-		wget -O /tmp/fulliptv.tgz http://lab.itbox.bg/software/panel/fulliptv-cms.tgz >> /dev/null 2>&1
+		wget -O /tmp/fulliptv.tgz https://raw.githubusercontent.com/irtec/FullIPTV/master/fulliptv-cms.gz >> /dev/null 2>&1
 		tar xzvf /tmp/fulliptv.tgz -C /opt >> /dev/null 2>&1
 		rm -rf /tmp/fulliptv.tgz >> /dev/null 2>&1
 	fi
 	if [ "$ISSTREAMER" = "1" ]; then
-		wget -O /tmp/fulliptv.tgz http://lab.itbox.bg/software/panel/fulliptv-streamer.tgz >> /dev/null 2>&1
+		wget -O /tmp/fulliptv.tgz https://raw.githubusercontent.com/irtec/FullIPTV/master/fulliptv-streamer.gz >> /dev/null 2>&1
 		tar xzvf /tmp/fulliptv.tgz -C /opt >> /dev/null 2>&1
 		rm -rf /tmp/fulliptv.tgz >> /dev/null 2>&1
 	fi
@@ -466,11 +465,11 @@ echo "##########################################################################
 echo " "
 echo "Remove Installation files"
 echo " "
-rm -rf /root/FullIPTV/FullIPTV-v2.sh
+rm -rf /root/FullIPTV/install_irtech.sh
 echo " "
 echo "####################################################################################"
 echo " "
-echo "FullIPTV 2.0 edited by Ivan Bachvarov a.k.a SlaSerX"
+echo "FullIPTV 2.0 edited by IRTech Network"
 echo " "
 echo "Installation Complete..."
 echo " "
