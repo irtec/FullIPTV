@@ -3,7 +3,7 @@
 # Script work only on Clean Debian/Ubuntu install servers
 
 # =====================================
-<p>FullIPTV auto install script v2.1-rc.4</p>
+<p>FullIPTV auto install script v2.1-rc.4
 # =====================================
 
 Implemented support for Ubuntu 14.04
